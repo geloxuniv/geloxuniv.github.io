@@ -36,7 +36,9 @@ body {
   opacity: 0.75;
   width: 1300px;
   height: 1000px;
-  object-fit: cover;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .audioplayer {
